@@ -5,8 +5,8 @@
 }
 
 #perfume {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
   font-weight: 14px;
 }
 
@@ -30,8 +30,9 @@
 }
 
 #mainheading {
+  color: hsl(212, 21%, 14%);
   width: 300px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Fraunces", serif;
   background-color: white;
   font-size: 30px;
   font-weight: bold;
@@ -41,16 +42,17 @@
   background-color: white;
   word-wrap: normal;
   width: 300px;
-  font-family: "Fraunces", serif;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
 }
 
 #price {
   background-color: white;
-  color: rgb(97, 122, 85);
+  color: hsl(158, 36%, 37%);
   font-weight: bold;
   font-size: large;
-  font-size: 24px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 26px;
+  font-family: "Fraunces", serif;
 }
 
 #mrp {
@@ -58,11 +60,12 @@
   text-decoration: line-through;
   margin-right: 10px;
   font-size: 14px;
+  font-family: "Montserrat", sans-serif;
 }
 
 #cart {
   border-radius: 10px;
-  background-color: rgb(97, 122, 85);
+  background-color: hsl(158, 36%, 37%);
   height: 20px;
   padding: 15px;
   margin: 4px;
@@ -70,5 +73,5 @@
   width: 120px;
   color: white;
   font-weight: bold;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Fraunces", serif;
 }
