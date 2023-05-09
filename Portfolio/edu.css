@@ -1,0 +1,41 @@
+* {
+  background-color: #fdf4f5;
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+  padding: 4px;
+}
+#briefcase {
+  display: flex;
+  height: 20px;
+  width: 15px;
+}
+
+#skills {
+  display: flex;
+  background-color: rgb(20, 108, 148);
+  height: 20px;
+  width: 15px;
+}
+
+#hat {
+  display: flex;
+  height: 20px;
+  width: 15px;
+}
+
+#mainHeading {
+  padding: 4px;
+  height: 30px;
+  background-color: #ba90c6;
+}
+#Institutes {
+  padding: 4px;
+  background-color: #e8a0bf;
+}
+#content {
+  font-size: 15px;
+}
+#class {
+  color: #3a98b9;
+  font-weight: bold;
+}
