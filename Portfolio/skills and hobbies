@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills & Hobbies</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,700;1,100&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="skills.css" />
+  </head>
+  <body>
+
+    <style>
+      @supports (position: fixed) {
+        .header {
+          position: fixed;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header started-->
+
+    <header>
+      <div class="header">
+        <div id="experience">
+          <a href="Experience.html">
+            <img
+              id="briefcase"
+              src="image/briefcase.png" alt="briefcase Icon"/>Professional
+          experience</a>
+        </div>
+
+        <div id="Education">
+          <a href="Education.html">
+            <img id="hat" src="image/edu.png" alt="hat icon"
+          />Education </a> 
+        </div>
+
+        <div>
+          <a href="skillsAndHobbies.html">
+            <img  id="skills" src="image/skill.png" alt="skill icon"
+          />Skills And Hobbies</a>
+          
+        </div>
+      </div>
+    </header>
+
+
+    <main>
+      <h2 id="heading">Key Skills</h2>
+
+      <p id="content">
+        <li>Java</li>
+        <li>Biology</li> 
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Fundamental analysis</li> 
+        <li>Equity research trading</li>
+        <li>MS Office</li>
+        
+      
+    </ul>
+      <h2 id="heading">Hobbies</h2>
+      <p id="content">
+
+        <ul>
+        <li>Reading novels</li>
+        <li>Drawing</li>
+        <li>Coding</li>
+        <li> Learning new languages</li>
+        </ul>
+      </p>
+    </main>
+  </body>
+</html>
