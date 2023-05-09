@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My resume</title>
+
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,700;1,100&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <style>
+      @supports (position: fixed) {
+        .header {
+          position: fixed;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header started-->
+
+    <header>
+      <div class="header">
+        <div id="experience">
+          <a href="Experience.html">
+            <img
+              id="briefcase"
+              src="image/briefcase.png" alt="briefcase Icon"/>Professional
+          experience</a>
+        </div>
+
+        <div id="Education">
+          <a href="Education.html">
+            <img id="hat" src="image/edu.png" alt="hat icon"
+          />Education </a> 
+        </div>
+
+        <div>
+          <a href="skillsAndHobbies.html">
+            <img  id="skills" src="image/skill.png" alt="skill icon"
+          />Skills And Hobbies</a>
+          
+        </div>
+      </div>
+    </header>
+
+    <!-- Header finished-->
+
+    <!--Main section-->
+
+    <main>
+      <div class="main">
+        <div>
+          <img
+            id="myPic"
+            src="image/IMG20221017113144.jpg"
+            alt="My Picture" />
+        </div>
+      </div>
+
+      <h1 id="name">Mehak Mattoo</h1>
+
+    
+    </main>
+    <div class="footer">
+      <footer>
+      
+          200-A, Vipin Garden, Dwarka (Kakrola) More, Uttam Nagar, New Delhi,
+          India, IN, 110059 
+          <br><br><br>
+          Reach me at: +917982146078
+<br><br>
+          <a href="mailto:mehakmattoo7@gmail.com"
+            ><img id="footerIcon" src="image/email.png" alt=""
+          /></a>
+
+          <a href="https://www.linkedin.com/in/mehak-mattoo-124021229">
+            <img id="footerIcon" src="image/linkedin.png" alt="linkedin icon" />
+          </a>
+
+          <a href="https://github.com/rin-kurikame">
+            <img id="footerIcon" src="image/git.png" alt="github icon"
+          /></a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
