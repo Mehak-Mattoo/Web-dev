@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,700;1,100&family=Montserrat:wght@300&display=swap"
       rel="stylesheet" />
 
-    <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="skill.css" />
   </head>
   <body>
 
@@ -30,7 +30,15 @@
 
     <header>
       <div class="header">
-        <div id="experience">
+
+        <div id="headerIcons">
+
+          <a href="index.html"> <img id="homeIcon" src="image/home.jpg" alt="Home icon"/> Home</a>
+        </div>
+
+
+
+        <div id="headerIcons">
           <a href="Experience.html">
             <img
               id="briefcase"
@@ -38,14 +46,14 @@
           experience</a>
         </div>
 
-        <div id="Education">
+        <div id="headerIcons">
           <a href="Education.html">
             <img id="hat" src="image/edu.png" alt="hat icon"
           />Education </a> 
         </div>
 
-        <div>
-          <a href="skillsAndHobbies.html">
+        <div id="headerIcons">
+          <a href="Skills&Hobbies.html">
             <img  id="skills" src="image/skill.png" alt="skill icon"
           />Skills And Hobbies</a>
           
@@ -58,6 +66,8 @@
       <h2 id="heading">Key Skills</h2>
 
       <p id="content">
+
+        <ul>
         <li>Java</li>
         <li>Biology</li> 
         <li>HTML</li>
@@ -65,7 +75,7 @@
         <li>Fundamental analysis</li> 
         <li>Equity research trading</li>
         <li>MS Office</li>
-        
+      </ul>
       
     </ul>
       <h2 id="heading">Hobbies</h2>
@@ -79,5 +89,30 @@
         </ul>
       </p>
     </main>
+    <br>
+
+    <div class="footer">
+      <footer>
+      
+          200-A, Vipin Garden, Dwarka (Kakrola) More, Uttam Nagar, New Delhi,
+          India, IN, 110059 
+          <br><br><br>
+          Reach me at: +917982146078
+<br><br>
+          <a href="mailto:mehakmattoo7@gmail.com"
+            ><img id="footerIcon" src="image/email.png" alt=""
+          /></a>
+<br>
+          <a href="https://www.linkedin.com/in/mehak-mattoo-124021229">
+            <img id="footerIcon" src="image/linkedin (1).png" alt="linkedin icon" />
+          </a>
+<br>
+          <a href="https://github.com/rin-kurikame">
+            <img id="footerIcon" src="image/github (1).png" alt="github icon"
+          /></a>
+        <br>
+      </div>
+      </footer>
+
   </body>
 </html>
