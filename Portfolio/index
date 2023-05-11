@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My resume</title>
+    <title>Experience</title>
+    <link rel="stylesheet" href="experience.css" />
 
-    <link rel="stylesheet" href="main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,700;1,100&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,700;1,100&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
       @supports (position: fixed) {
         .header {
@@ -18,74 +22,101 @@
       }
     </style>
   </head>
-
   <body>
-    <!-- Header started-->
-
     <header>
       <div class="header">
-        <div id="experience">
+        <div id="headerIcons">
+          <a href="index.html">
+            <img id="homeIcon" src="image/home.jpg" alt="Home icon" /> Home</a
+          >
+        </div>
+
+        <div id="headerIcons">
           <a href="Experience.html">
             <img
               id="briefcase"
-              src="image/briefcase.png" alt="briefcase Icon"/>Professional
-          experience</a>
+              src="image/briefcase.png"
+              alt="briefcase Icon"
+            />Professional experience</a
+          >
         </div>
 
-        <div id="Education">
+        <div id="headerIcons">
           <a href="Education.html">
-            <img id="hat" src="image/edu.png" alt="hat icon"
-          />Education </a> 
+            <img id="hat" src="image/edu.png" alt="hat icon" />Education
+          </a>
         </div>
 
-        <div>
-          <a href="skillsAndHobbies.html">
-            <img  id="skills" src="image/skill.png" alt="skill icon"
-          />Skills And Hobbies</a>
-          
+        <div id= "headerIcons">
+          <a href="Skills&Hobbies.html">
+            <img id="skills" src="image/skill.png" alt="skill icon" />Skills And
+            Hobbies</a
+          >
         </div>
       </div>
     </header>
 
-    <!-- Header finished-->
+    <!-- icons finished -->
 
-    <!--Main section-->
-
+    <h2 id="heading">Professional experience</h2>
     <main>
-      <div class="main">
-        <div>
-          <img
-            id="myPic"
-            src="image/IMG20221017113144.jpg"
-            alt="My Picture" />
-        </div>
-      </div>
+      <h4 id="jobs">Chegg</h4>
+      <b>Subject Matter Expert</b>
 
-      <h1 id="name">Mehak Mattoo</h1>
-
-    
-    </main>
-    <div class="footer">
-      <footer>
+      <ul>
+        <li>
+          Resolve student doubts and offer easy solutions on a daily basis in
+          biology subject
+        </li>
+        <li>
+          Counted in the top solvers out of thousands of solvers various times
+        </li>
+      </ul>
       
-          200-A, Vipin Garden, Dwarka (Kakrola) More, Uttam Nagar, New Delhi,
-          India, IN, 110059 
-          <br><br><br>
-          Reach me at: +917982146078
+      <h4 id="jobs">Growth Arrow</h4>
+      <b> Equity research analyst</b>
+      <ul>
+        <li>
+          Exercised about different candlestick patterns, how to read charts and
+          trading in the stock market
+        </li>
+        <li>
+          Examined technical and fundamental analysis and various types of
+          indicators and apply these knowledge to grow personal income
+        </li>
+      </ul>
+
+      <h4 id="jobs">Course in Fundamentals of Digital Marketing</h4>
+      <li>
+        Learned about SEO and SEM, email marketing, keyword planning, and much
+        more from Google Digital Workshop
+      </li>
+    </main>
+    <br>
+    <br>
+
+
+<!-- Footer started-->
+
+ <div class="footer">
+<footer>
+                  
+ 200-A, Vipin Garden, Dwarka (Kakrola) More, Uttam Nagar, New Delhi,
+India, IN, 110059 
+ <br><br><br>
+ Reach me at: +917982146078
 <br><br>
-          <a href="mailto:mehakmattoo7@gmail.com"
-            ><img id="footerIcon" src="image/email.png" alt=""
-          /></a>
-
-          <a href="https://www.linkedin.com/in/mehak-mattoo-124021229">
-            <img id="footerIcon" src="image/linkedin.png" alt="linkedin icon" />
-          </a>
-
-          <a href="https://github.com/rin-kurikame">
-            <img id="footerIcon" src="image/git.png" alt="github icon"
-          /></a>
-        </p>
-      </footer>
-    </div>
+ <a href="mailto:mehakmattoo7@gmail.com"
+><img id="footerIcon" src="image/email.png" alt=""
+/></a>
+<br>
+ <a href="https://www.linkedin.com/in/mehak-mattoo-124021229">
+<img id="footerIcon" src="image/linkedin (1).png" alt="linkedin icon" />
+</a> <br>
+<a href="https://github.com/rin-kurikame">
+  <img id="footerIcon" src="image/github (1).png" alt="github icon"
+ /></a><br>               
+</div>
+</footer>
   </body>
 </html>
