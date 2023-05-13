@@ -1,0 +1,80 @@
+* {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.main {
+  padding: 60px;
+  height: 400px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#left {
+  padding: 20px;
+  height: 420px;
+  width: 200px;
+  background-color: hsl(31, 77%, 52%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+#LLearnMore {
+  padding: 10px;
+  height: 35x;
+  width: 100px;
+  border-radius: 25px;
+  color: hsl(31, 77%, 52%);
+  background-color: white;
+  font-weight: bold;
+}
+
+#middle {
+  padding: 20px;
+  height: 420px;
+  width: 200px;
+  background-color: hsl(184, 100%, 22%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+#MLearnMore {
+  padding: 10px;
+  height: 35x;
+  width: 100px;
+  background-color: white;
+  color: hsl(184, 100%, 22%);
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+#right {
+  padding: 20px;
+  height: 420px;
+  width: 200px;
+  background-color: hsl(179, 100%, 13%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+#RLearnMore {
+  padding: 10px;
+  height: 35x;
+  width: 100px;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  color: hsl(179, 100%, 13%);
+}
+
+#CarNames {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+}
+
+@media all and (max-width: 500px) {
+  .main {
+    flex-direction: column;
+    height: 900px;
+  }
+}
