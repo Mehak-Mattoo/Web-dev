@@ -1,94 +1,201 @@
 * {
-  padding: 0px;
-  margin: 0px;
-  color: white;
-}
+    padding: 0;
+    margin: 0;
+    color: white;
+   
+  }
+  
+  .main {
+    height: 900px;
+    background: rgb(255, 249, 249);
+    display: flex;
+    background-color: rgba(255, 249, 249, 0.1);
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7)
+      url(https://cdn.shopify.com/s/files/1/0607/5056/1539/articles/netflix.jpg?v=1669877376);
+    background-size: cover;
+    background-blend-mode: darken;
+    flex-direction: column;
+  }
 
-.main {
-  height: 900px;
-  width: 1270px;
-  background: rgb(255, 249, 249);
+  #netflix-icon{
+    display: flex;
+  padding: 0;
+  margin: 0;
+    height: 150px;
+    width: 150px;
+  }
+  
+  #right-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4px;
+    padding: 10px;  
+  }
+
+  #lang-dropdown{
+    display: flex;
+height: 35px;
+  }
+
+  #sign-in-button{
+    display: flex;
+    height: 35px;
+
+  }
+  
+  
+  #Info1 {
+    font-family: "Secular One", sans-serif;
+    padding-top: 100px;
+    padding-left: 100px;
+    display: flex;
+    font-size: 60px;
+    width: 590px; /* perfect*/
+  }
+  
+  #Info2 {
+    font-family: "Secular One", sans-serif;
+    padding-left: 100px;
+    display: flex;
+    font-size: 25px;
+    width: 600px; /* perfect*/
+  }
+  
+  #Info3 {
+    font-family: "Secular One", sans-serif;
+    padding-left: 100px;
+    display: flex;
+    font-size: 20px;
+    width: 900px; /* perfect*/
+  }
+  
+  #email-section {
+    padding-left: 100px;
+    display: flex;
+    font-size: 20px;
+    width: 900px; /* perfect*/
+  }
+  
+  #email-input {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    border-radius: 5px;
+  }
+  
+  /* features started*/
+  
+  .rest {
+    background-color: rgba(27, 25, 25, 0.982);
+    height: 2800px;
+
+  }
+  .box {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    flex: 1;
+    height: 1800px;
+  }
+  
+  #feature-image {
+    display: flex;
+    height: 300px;
+    width: 350px;
+  
+  }
+
+  #box-content{
+    padding: 10px;
   display: flex;
-  background-color: rgba(255, 249, 249, 0.1);
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.7)
-    url(https://cdn.shopify.com/s/files/1/0607/5056/1539/articles/netflix.jpg?v=1669877376);
-  background-size: cover;
-  background-blend-mode: darken;
   flex-direction: column;
-}
-
-#right-buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  margin-right: 4px;
-}
-
-.dropdown {
-  padding: 8px;
-}
-
-#Info1 {
-  font-family: "Secular One", sans-serif;
-  padding-top: 100px;
-  padding-left: 100px;
-  display: flex;
-  font-size: 60px;
-  width: 590px; /* perfect*/
-}
-
-#Info2 {
-  font-family: "Secular One", sans-serif;
-  padding-left: 100px;
-  display: flex;
-  font-size: 25px;
-  width: 600px; /* perfect*/
-}
-
-#Info3 {
-  font-family: "Secular One", sans-serif;
-  padding-left: 100px;
-  display: flex;
-  font-size: 20px;
-  width: 900px; /* perfect*/
-}
-
-#email-section {
-  padding-left: 100px;
-  display: flex;
-  font-size: 20px;
-  width: 900px; /* perfect*/
-}
-
-#email-input {
-  background-color: black;
-  color: white;
-  margin: 0px;
-  padding: 0px;
-  width: 400px;
-  border-radius: 5px;
-}
-
-/* features started*/
-
-.rest {
-  background-color: black;
-  height: 1300px;
-  width: 1270px;
-}
-.box {
-  padding: 60px;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  background-color: rgba(182, 43, 43, 0.495);
-  height: 1300px;
-  width: 1170px;
-}
-
-#feature-image {
-  justify-content: end;
-  height: 300px;
+  font-size: 18px;
   width: 350px;
 }
+
+  #feature1{
+    display: flex;
+  }
+
+
+  #feature2{
+    display: flex;
+  }
+
+  #feature3{
+    display: flex;
+  }
+
+  #feature4{
+    display: flex;
+  }
+
+#email-2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+/* FAQs started*/
+
+.FAQs{
+background-color: black;
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+
+
+}
+
+#FAQs-heading{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+
+.footer{
+  text-decoration: underline;
+  display: flex;
+justify-content: space-evenly;
+ padding: 20px;
+}
+
+#footer-info{
+  display: flex;
+  padding-left: 20px;
+  justify-self:center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+  /* Media queries*/
+
+  /* @media all and(min-width: 1270px){
+   
+   .main{
+    width: 1600px;
+    padding: 0px;
+}
+
+section{
+    width: 1500px;
+    padding: 0px;
+}
+  } */
