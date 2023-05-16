@@ -13,45 +13,58 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Anton&family=Secular+One&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
 
     <!--bootstrap link-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous" />
+      crossorigin="anonymous"
+    />
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
+
+ <!--font awesome link-->
+
+    <script defer src="https://kit.fontawesome.com/dd718c79fa.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <section>
+      
       <div class="main">
+
         <!--top right buttons-->
+       
 
         <div id="right-buttons">
-          <div class="dropdown">
-            <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="true">
-              English
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">hindi</a>
-              <a class="dropdown-item" href="#">hindi</a>
-            </div>
+          <div>
+          <img id="netflix-icon" src="images/netflix.png" alt=""> </div>
+          <div id="lang-dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="true"
+          >
+            English
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">hindi</a>
+            <a class="dropdown-item" href="#">hindi</a>
           </div>
-
-          <button type="button" class="btn btn-danger">Sign in</button>
+          </div>
+         <div id="sign-in-button">
+          <button type="button" class="btn btn-danger">Sign in</button> </div>
         </div>
 
         <!--Main heading-->
@@ -73,39 +86,330 @@
 
       <div class="rest">
         <div class="box">
-          <img id="feature-image" src="images/feature1.png" alt="tv image" />
+          <div id="feature1">
+            <div id="box-content">
+              <h2>Enjoy on your TV</h2>
+              <br />
+              <p>
+                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                Blu-ray players and more.
+              </p>
+            </div>
+            <div id="image-div">
+              <img
+                id="feature-image"
+                src="images/feature1.jpg"
+                alt="tv image"
+              />
+            </div>
+          </div>
+          <hr id="line" />
+          <div id="feature2">
+            <div id="box-content">
+              <h2>Watch everywhere</h2>
+              <br />
+              <p>
+                Stream unlimited movies and TV shows on your phone, tablet,
+                laptop, and TV.
+              </p>
+            </div>
+            <div id="image-div">
+              <img
+                id="feature-image"
+                src="images/feature2.jpg"
+                alt="tv image"
+              />
+            </div>
+          </div>
+          <hr id="line" />
+          <div id="feature3">
+            <div id="box-content">
+              <h2>Create profiles for kids</h2>
+              <br />
+              <p>
+                Send children on adventures with their favourite characters in a
+                space made just for them—free with your membership.
+              </p>
+            </div>
 
-          <h3 id="box-heading">Enjoy on your TV</h3>
-          <p id="box-content">
-            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
-            players and more.
-          </p>
-
+            <div id="image-div">
+              <img
+                id="feature-image"
+                src="images/feature3.png"
+                alt="tv image"
+              />
+            </div>
+          </div>
           <hr id="line" />
 
-          <img id="feature-image" src="images/feature2.png" alt="tv image" />
-          <h3 id="box-heading">Watch everywhere</h3>
-          <p id="box-content">
-            Stream unlimited movies and TV shows on your phone, tablet, laptop,
-            and TV.
-          </p>
-
+          <div id="feature4">
+            <div id="box-content">
+              <h2>Download your shows to watch offline</h2>
+              <br />
+              <p>
+                Save your favourites easily and always have something to watch.
+              </p>
+            </div>
+            <div id="image-div">
+              <img
+                id="feature-image"
+                src="images/feature4.jpg"
+                alt="tv image"
+              />
+            </div>
+          </div>
           <hr id="line" />
-
-          <img id="feature-image" src="images/feature3.png" alt="tv image" />
-          <h3 id="box-heading">Create profiles for kids</h3>
-          <p id="box-content">
-            Send children on adventures with their favourite characters in a
-            space made just for them—free with your membership.
-          </p>
-          <hr id="line" />
-
-          <img id="feature-image" src="images/feature4.png" alt="tv image" />
-          <h3 id="box-heading">Download your shows to watch offline</h3>
-          <p id="box-content">
-            Save your favourites easily and always have something to watch.
-          </p>
         </div>
+
+        <!-- FAQs started-->
+
+        <div class="FAQs">
+          <div id="FAQs-heading">Frequently Asked Questions</div>
+
+          <!--accordion-->
+
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  What is Netflix?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. Netflix
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  How much does Netflix cost?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the second item's accordion body. Let's imagine this being
+                  filled with some actual content.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Where can I watch?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the
+                  space to make it look, at least at first glance, a bit more
+                  representative of how this would look in a real-world
+                  application.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  How do I cancel?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the first item's accordion body.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFive"
+                >
+                  What can I watch on Netflix?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the first item's accordion body.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSix"
+                >
+                  Is Netflix good for kids?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the first item's accordion body.
+                </div>
+              </div>
+            </div>
+          </div>
+          <br /><br />
+
+          <div id="email-2">
+            <p id="Info3">
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </p>
+            <div id="email-section">
+              <form>
+                <input
+                  id="email-input"
+                  type="text"
+                  placeholder="Email adress"
+                />
+                <button type="button" class="btn btn-danger">
+                  Get started
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+
+        <footer>
+          <div id="footer-info">
+            <p>Questions? <u> Call 000-800-919-1694 </u></p>
+          </div>
+          <div class="footer">
+            <div id="Left-footer">
+              FAQs
+              <br />
+              Media Center
+              <br />
+              Ways to watch <br />
+              Cookie Preferences <br />
+              Speed Test <br /> <br> <br>
+
+              <div id=" end-lang-button">
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="true"
+                >
+                <i class="fa-thin fa-globe"></i> English  <!-- icon not working-->
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">hindi</a>
+                  <a class="dropdown-item" href="#">hindi</a>
+                </div>
+            </div>
+<br>
+            Netflix India
+
+            </div>
+
+            <div id="Middle-footer">
+               Help center <br />
+              Investor Relations <br />
+              Terms of Use <br />
+              Corporate Information <br />
+              Legal Notices <br />
+            </div>
+
+            <div id="Right footer">
+              Account <br />
+              Jobs <br />
+              Privacy <br />
+              Contact Us <br />
+              Only on Netflix <br />
+            </div>
+
+         
+        </footer>
       </div>
     </section>
   </body>
