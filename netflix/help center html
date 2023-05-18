@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Help Center</title>
+    <link rel="stylesheet" href="Help.css" />
+
+
+ <!--font link-->
+
+
+
+    <!--bootstrap link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+
+    <!--font awesome link-->
+
+    <script
+      defer
+      src="https://kit.fontawesome.com/dd718c79fa.js"
+      crossorigin="anonymous"></script>
+  </head>
+
+
+  <body>
+    <header>
+    <div class="upper-div">
+      <div id="right-buttons">
+        <div id="netflix-icon">
+          <a href="index.html">
+          <img id="netflix-icon" src="images/netflix_official_logo_icon_168085.png" alt="netflix-icon" /> </a>
+        </div>
+
+        <div id="middle-div-buttons">
+          <div id="join-netflix">
+            <b> JOIN NETFLIX</b>
+          </div>
+
+          <div>
+            <button id="sign-in-button"> <b> SIGN IN</b> </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="heading">
+        <b id="Help-center-heading">Help Center</b>
+
+        <div>
+          <input
+            id="search-bar"
+            type="text"
+            placeholder="   What do you need help with?" />
+        </div>
+      </div>
+    </div>
+</header>
+    <main>
+      <div id="middle-div1">
+        <b id="middle-div-heading"> Sign in for personalized help</b>
+        <div id="middle-div-buttons">
+          <div>
+              <button id="sign-in-button2"> <b> SIGN IN</b> </button>
+            </div>
+          
+          <div id="join-netflix2">
+            <b> JOIN NETFLIX</b>
+          </div>
+        </div>
+        <div id="popular-topics">
+          <p id="popular-topics-heading">Popular topics</p>
+          <div id="popular-topics-content">
+            <b id="popular-topics-content1">How to sign up for Netflix</b>
+            <b id="popular-topics-content2">Plans and pricing</b>
+            <b id="popular-topics-content3">Can't sign in to Netflix</b>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <div id="middle-div2">
+        <div id="left">
+          <div>
+            <b id="middle-div2-heading"> Getting Started</b> <br /><br />
+            How to sign up for Netflix <br />
+            <br />
+            What is Netflix? <br />
+            <br />
+            Plans and Pricing <br />
+            <br />
+          </div>
+          <br>
+      
+          <div>
+            <b id="middle-div2-heading"> Manage My Account </b> <br />
+            <br />
+            Can't sign in to Netflix <br />
+            <br />
+            How to restart your Netflix account <br />
+            <br />
+            Netflix account email was changed without permission <br />
+          </div>
+        </div>
+      
+        <div id="middle">
+          <div>
+            <b id="middle-div2-heading"> Can't Watch</b> <br />
+            <br />
+            How to change your Netflix password <br />
+            <br />
+            Netflix says to sign up when trying to sign in <br />
+            <br />
+            Netflix says, 'This app is not compatible with your device.' <br />
+          </div>
+    <br>
+          <div>
+            <b id="middle-div2-heading"> Watching Netflix </b> <br />
+            <br />
+            What devices can I use to stream Netflix? <br />
+            <br />
+            How to watch Netflix on your TV <br />
+            <br />
+            How to download titles to watch offline <br />
+          </div>
+        </div>
+
+    
+
+        <div id="right">
+          <div>
+            <b id="middle-div2-heading"> Quick Links </b> <br />
+            <br />
+            Reset password <br />
+            <br />
+            Update email <br />
+            <br />
+            Get help signing in <br />
+            <br />
+            Update payment method <br />
+            <br />
+            Request TV shows or movies <br />
+            <br />
+            Content Grievances in India <br />
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <!--footer started-->
+
+    <footer>
+      <div id="footer">
+
+        <div id="footer-heading">
+          <div id="help-div">
+            <b> Need more help? </b>
+              </div>
+            <div id="contact-us"> <b> Contact Us </b> 
+            </div>    
+       </div>
+        <hr />
+
+        <select name="English" id="lang-dropdown">
+          <option value="English"><b> English</b></option>
+          <option value="Espanol">Espanol</option>
+          <option value="French">French</option>
+          <option value="German">German</option>
+          <option value="German">Hindi</option>
+        </select>
+        <br />
+        <br />
+        <div id="footer-content">
+        
+        Terms of Use  <br>
+        Privacy <br />
+        Cookie Preferences <br />
+        Corporate Information <br />
+        </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
