@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Only on Netflix</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap"
+      rel="stylesheet" />
+
+    <script src="my.js" defer></script>
+
+    <link rel="stylesheet" href="Only.css" />
+
+    <script
+      src="https://kit.fontawesome.com/dd718c79fa.js"
+      crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    
+    <header>
+      <div class="main"> 
+        <!--top right buttons-->
+
+        <div>
+          <img
+            id="netflix-icon"
+            src="images/netflix_official_logo_icon_168085.png"
+            alt="" />
+        </div>
+
+        <div id="right-buttons">
+          <p id="unlimited">UNLIMITED TV SHOWS & MOVIES</p>
+          <p id="join-netflix">JOIN NOW</p>
+
+          <div>
+            <button id="sign-in-button"><p>SIGN IN</p></button>
+          </div>
+        </div>
+  
+    </header>
+
+    <main>
+      <div class="main-content">
+        <br />
+        <b id="main-heading">Netflix Originals</b>
+
+        <p id="content">
+          Netflix is the home of amazing original programming that you can’t
+          find anywhere else. Movies, TV shows, specials and more, it’s all
+          tailored specifically to you.
+        </p>
+        <br />
+        <div id="genre"><p>Popular on Netflix</p></div>
+        <br />
+        <!-- carousel-->
+        <div class="carousel-main">
+          <i class="fa-solid fa-chevron-left"></i>
+
+          <div class="carousel">
+            <img src="carouselImages/c1image1.jpg" alt="show-image" />
+            <img src="carouselImages/c1image2.jpg" alt="show-image" />
+            <img src="carouselImages/c1image3.jpg" alt="show-image" />
+            <img src="carouselImages/c1image4.jpg" alt="show-image" />
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+
+          <br />
+          <div id="genre"><p>Action & Adventure</p></div>
+          <br />
+
+          <i class="fa-solid fa-chevron-left"></i>
+          <div class="carousel">
+            <img src="carouselImages/c2image1.jpg" alt="show-image" />
+            <img src="carouselImages/c2image2.jpg" alt="show-image" />
+            <img src="carouselImages/c2image3.jpg" alt="show-image" />
+            <img src="carouselImages/c2image4.jpg" alt="show-image" />
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+
+          <br />
+          <div id="genre"><p>Family Watch Together Movies</p></div>
+          <br />
+
+          <i class="fa-solid fa-chevron-left"></i>
+          <div class="carousel">
+            <img src="carouselImages/c3image1.jpg" alt="show-image" />
+            <img src="carouselImages/c3image2.jpg" alt="show-image" />
+            <img src="carouselImages/c3image3.jpg" alt="show-image" />
+            <img src="carouselImages/c3image4.jpg" alt="show-image" />
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+
+          <br />
+          <div id="genre"><p>International TV Dramas</p></div>
+          <br />
+
+          <i class="fa-solid fa-chevron-left"></i>
+          <div class="carousel">
+            <img src="carouselImages/c4image1.jpg" alt="show-image" />
+            <img src="carouselImages/c4image2.jpg" alt="show-image" />
+            <img src="carouselImages/c4image3.jpg" alt="show-image" />
+            <img src="carouselImages/c4image4.jpg" alt="show-image" />
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+
+          <!--blurred divs-->
+          <br />
+          <div id="blurred-genre"><p>International TV Dramas</p></div>
+          <br />
+          <div class="blurred-carousel">
+            <img src="carouselImages/c1image5.jpg" alt="show-image" />
+            <img src="carouselImages/c1image3.jpg" alt="show-image" />
+            <img src="carouselImages/c2image3.jpg" alt="show-image" />
+            <img src="carouselImages/c2image4.jpg" alt="show-image" />
+          </div>
+
+          <br />
+          <div id="blurred-genre"><p>Comedy shows</p></div>
+          <br />
+
+          <div class="blurred-carousel">
+            <img src="carouselImages/c1image2.jpg" alt="show-image" />
+            <img src="carouselImages/c2image1.jpg" alt="show-image" />
+            <img src="carouselImages/c4image4.jpg" alt="show-image" />
+            <img src="carouselImages/c3image4.jpg" alt="show-image" />
+          </div>
+        </div>
+
+        <div id="subscribe-div">
+          <div id="subscribe-div-heading">
+            <b>There's even more to watch.</b>
+          </div>
+          <br />
+          <div id="subscribe-div-content">
+            Netflix has an extensive library of feature films, documentaries, TV
+            shows, anime, award-winning Netflix originals and more. Watch as
+            much as you want, anytime you want.
+          </div>
+          <br />
+          <p id="join-netflix2">JOIN NOW</p>
+        
+
+
+        </div>
+       
+       
+    </main>
+
+    <footer>
+
+    
+      <div class="footer-content">
+        Read about Netflix TV shows and movies and watch bonus videos on Tudum.com
+        <br><br>
+        <p>Questions? Contact us </p>
+        <div id="Left-footer">
+         
+          FAQs
+          <br />
+          Media Center
+          <br />
+          Ways to watch <br />
+          Cookie Preferences <br />
+          Speed Test <br />
+          <br />
+          <br />
+      </div>
+
+      <div id="Middle-footer">
+        <a href="Help Center.html">Help Center</a>
+        <br />
+        Investor Relations <br />
+        Terms of Use <br />
+        Corporate Information <br />
+        Legal Notices <br />
+      </div>
+
+      <div id="Right footer">
+        Account <br />
+        Jobs <br />
+        Privacy <br />
+        Contact Us <br />
+        Only on Netflix <br />
+      </div>
+      </div>
+  
+
+
+    <select name="English" id="lang-dropdown2">
+      <option value="English"><b> English</b></option>
+      <option value="English"><b> Hindi</b></option>
+    </select>
+</footer>
+
+  
+
+    
+  </body>
+</html>
