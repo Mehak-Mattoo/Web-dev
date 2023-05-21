@@ -1,0 +1,238 @@
+* {
+  /* background-color: rgba(255, 255, 255, 0.799); */
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-div {
+  color: white;
+  height: 230px;
+  background-color: black;
+}
+
+#right-buttons {
+  padding: 15px;
+  display: flex;
+}
+
+#netflix-icon {
+  display: flex;
+  padding: 10px;
+  padding-left: 10px;
+  height: 60px;
+  width: 150px;
+  margin-right: auto;
+  padding-left: 10px;
+}
+
+#join-netflix {
+  margin: 10px;
+  color: white;
+  display: flex;
+  padding: 10px 10px;
+  text-align: center;
+  outline-color: white;
+  outline-style: solid;
+  outline-width: 1px;
+  height: 35px;
+  font-size: 11px;
+  width: 100px;
+  cursor: pointer;
+}
+
+#sign-in-button {
+  display: flex;
+  background-color: rgb(229, 9, 20);
+  border: none;
+  color: white;
+  padding: 10x 10px;
+  align-items: center;
+  font-size: 12px;
+  width: 76px;
+  height: 35px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 60px;
+}
+
+#Help-center-heading {
+  font-size: 35px;
+  font-style: bold;
+}
+
+#search-bar {
+  color: black;
+  width: 750px;
+  height: 44px;
+  border-radius: 8px;
+}
+
+#middle-div1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  height: 260px;
+}
+
+#middle-div-buttons {
+  display: flex;
+  padding-left: 5px;
+  margin: 5px;
+}
+
+#sign-in-button2 {
+  display: flex;
+  background-color: rgb(229, 9, 20);
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  font-size: 14px;
+  width: 100px;
+  height: 45px;
+  margin: 10px;
+}
+
+#join-netflix2 {
+  margin: 10px;
+  color: rgb(229, 9, 20);
+  display: flex;
+  padding: 15px 15px;
+  text-align: center;
+  outline-color: rgb(229, 9, 20);
+  outline-style: solid;
+  outline-width: 1px;
+  height: 45px;
+  font-size: 13px;
+  width: 120px;
+}
+
+#middle-div-heading {
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+#popular-topics {
+  display: flex;
+  flex-direction: column;
+}
+
+#popular-topics-heading {
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+#popular-topics-content {
+  display: flex;
+
+  justify-content: space-evenly;
+  width: 600px;
+}
+
+#popular-topics-content1 {
+  display: flex;
+  padding: 5px;
+  box-shadow: 3px 3px 3px 3px rgb(230, 226, 226);
+}
+
+#popular-topics-content2 {
+  display: flex;
+  padding: 5px;
+  box-shadow: 3px 3px 3px 3px rgb(230, 226, 226);
+}
+
+#popular-topics-content3 {
+  padding: 5px;
+  display: flex;
+  box-shadow: 3px 3px 3px 3px rgb(230, 226, 226);
+}
+
+#middle-div2 {
+  display: flex;
+  height: 500px;
+  justify-content: space-evenly;
+}
+
+#middle-div2-heading {
+  font-size: 24px;
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+#middle {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+#red-icon {
+  color: red;
+  width: 10px;
+  margin-left: 5px;
+  height: 20px;
+}
+
+/*footer started*/
+
+#footer {
+  background-image: linear-gradient(
+    200deg,
+    rgba(235, 38, 38, 0.3),
+    rgb(8, 8, 35)
+  );
+  padding: 30px;
+  color: white;
+  background-color: black;
+}
+
+#footer-heading {
+  display: flex;
+}
+
+#help-div {
+  display: flex;
+  padding: 15px;
+  font-size: 20px;
+}
+
+#contact-us {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(35, 35, 35);
+  width: 150px;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 5px;
+  display: flex;
+  height: 45px;
+  text-align: center;
+}
+
+#lang-dropdown {
+  padding: 5px;
+  background-color: black;
+  color: gray;
+  width: 150px;
+}
+
+#footer-content {
+  color: rgb(155, 142, 142);
+  line-height: 30px;
+}
