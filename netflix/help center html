@@ -140,17 +140,17 @@
           <div>
             <b id="middle-div2-heading"> Quick Links </b> <br />
             <br />
-            Reset password <br />
+          Reset password <span  id="red-icon"> &#x3e; </span> <br>
             <br />
-            Update email <br />
+            Update email <span  id="red-icon"> &#x3e; </span> <br />
             <br />
-            Get help signing in <br />
+            Get help signing in <span  id="red-icon"> &#x3e; </span> <br />
             <br />
-            Update payment method <br />
+            Update payment method <span  id="red-icon"> &#x3e; </span> <br />
             <br />
-            Request TV shows or movies <br />
+            Request TV shows or movies <span  id="red-icon"> &#x3e; </span> <br />
             <br />
-            Content Grievances in India <br />
+            Content Grievances in India <span  id="red-icon"> &#x3e; </span> <br />
           </div>
         </div>
       </div>
