@@ -4,301 +4,119 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netflix</title>
-
+    <title>Experience</title>
     <link rel="stylesheet" href="main.css" />
 
-    <!--Font links-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Secular+One&display=swap"
-      rel="stylesheet" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap"
-      rel="stylesheet" />
-
-    <!--bootstrap link-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,700;1,100&family=Montserrat:wght@300&display=swap"
       rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous" />
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"></script>
+    />
 
-    <!--font awesome link-->
-
-    <script defer src="https://kit.fontawesome.com/d914ad687e.js" crossorigin="anonymous"></script>
-
- 
+    <style>
+      @supports (position: fixed) {
+        .header {
+          position: fixed;
+        }
+      }
+    </style>
   </head>
-
   <body>
-    <section>
-      <div class="main">
-        <!--top right buttons-->
-
-        <div id="right-buttons">
-          <div id="netflix-icon">
-            <img id="netflix-icon" src="images/netflix_official_logo_icon_168085.png" alt="" />
-          </div>
-
-          <div >
-            <select  name= "English" id="lang-dropdown">
-              <option value="English"><b> English</b></option>
-              <option value="English"><b> Hindi</b></option>
-            </select>
-          </div>
-          <div>
-            <button id="sign-in-button"><b> Sign in</b></button>
-          </div>
+    <header>
+      <div class="header">
+        <div id="headerIcons">
+          <a href="index.html">
+            <i class="fa-light fa-briefcase" style="color: #ffffff;"></i> Home</a
+          >
         </div>
 
-        <!--Main heading-->
-        <h1 id="Info1">Unlimited movies, TV shows and more</h1>
+        <div id="headerIcons">
+          <a href="Experience.html">
+            <img
+              id="briefcase"
+              src="image/briefcase.png"
+              alt="briefcase Icon"
+            />Professional experience</a
+          >
+        </div>
 
-        <p id="Info2">Watch anywhere. Cancel anytime.</p>
-        <p id="Info3">
-          Ready to watch? Enter your email to create or restart your membership.
-        </p>
-        <br />
-        <div id="email-section">
-          <form>
-            <input id="email-input" type="text" placeholder="Email address" />
-          </form>
-          <div>
-            <button id="get-started"><b> Get started></b></button>
-          </div>
+        <div id="headerIcons">
+          <a href="Education.html">
+            <img id="hat" src="image/edu.png" alt="hat icon" />Education
+          </a>
+        </div>
+
+        <div id= "headerIcons">
+          <a href="skillsAndHobbies.html">
+            <img id="skills" src="image/skill.png" alt="skill icon" />Skills And
+            Hobbies</a
+          >
         </div>
       </div>
+    </header>
 
-      <!--features-->
+    <!-- icons finished -->
 
-      <div class="rest">
-        <div class="box">
-          <div id="feature1">
-            <div id="box-content">
-              <p id="feature-heading">Enjoy on your TV</p>
-              <br />
-              <p id="feature-content">
-                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
-                Blu-ray players and more.
-              </p>
-            </div>
-            <div id="image-div">
-              <img
-                id="feature-image"
-                src="images/feature1.jpg"
-                alt="tv image" />
-            </div>
-          </div>
-          <hr id="line" />
-          <div id="feature2">
-   
-            <div id="image-div">
-              <img
-                id="feature-image"
-                src="images/feature2.jpg"
-                alt="tv image" />
-            </div>
+    <h2 id="heading">Professional experience</h2>
+    <main>
+      <h4 id="jobs">Chegg</h4>
+      <b>Subject Matter Expert</b>
 
-            <div id="box-content">
-              <p id="feature-heading">Watch everywhere</p>
-              <br />
-              <p id="feature-content">
-                Stream unlimited movies and TV shows on your phone, tablet,
-                laptop, and TV.
-              </p>
-            </div>
-
-          </div>
-          <hr id="line" />
-          <div id="feature3">
-            <div id="box-content">
-              <p id="feature-heading">Create profiles for kids</p>
-              <br />
-              <p id="feature-content">
-                Send children on adventures with their favourite characters in a
-                space made just for them—free with your membership.
-              </p>
-            </div>
-
-            <div id="image-div">
-              <img
-                id="feature-image"
-                src="images/feature3.png"
-                alt="tv image" />
-            </div>
-          </div>
-          <hr id="line" />
-
-          <div id="feature4">
-   
-            <div id="image-div">
-              <img
-                id="feature-image"
-                src="images/feature4.jpg"
-                alt="tv image" />
-            </div>
-
-            <div id="box-content">
-              <p id="feature-heading">Download your shows to watch offline</p>
-              <br />
-              <p id="feature-content">
-                Save your favourites easily and always have something to watch.
-              </p>
-            </div>
-
-          </div>
-          <hr id="line" />
-        </div>
-        <br /><br /><br />
-        <!-- FAQs started-->
-
-        <div class="FAQs">
-          <div id="FAQs-heading">Frequently Asked Questions</div>
-          <br />
-
-          <ul id="accordion">
-
-<li>
-<label for="ques1">  What is Netflix? <span>&#43;</span></label>
-<input type="radio" name="accordion" id="ques1" >
-<div id="accordion-content">
-  <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
-<br>
-    You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
-
-
-</div>
-</li>
-
-<li>
-  <label for="ques2">  How much does Netflix cost? <span>&#43;</span></label>
-  <input type="radio" name="accordion" id="ques2" >
-  <div id="accordion-content">
-    <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
-  </p>
-  </div>
-  </li>
-
-
-  <li>
-    <label for="ques3">  Where can I  watch? <span>&#43</span></label>
-    <input type="radio" name="accordion" id="ques3" >
-    <div id="accordion-content">
-     <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
-
-      You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
-    
-    </div>
-    </li>
-
-    <li>
-      <label for="ques4">  How do I cancel? <span>&#43;</span></label>
-      <input type="radio" name="accordion" id="ques4">
-      <div id="accordion-content">
-    <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
-      </div>
-      </li>
-
-      <li>
-        <label for="ques5">  What can I watch on Netflix? <span>&#43;</span></label>
-        <input type="radio" name="accordion" id="ques5" >
-        <div id="accordion-content">
-         <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
-        
-        </div>
-        </li>
-
+      <ul>
         <li>
-          <label for="ques6">  Is Netflix good for kids? <span>&#43;</span></label>
-          <input type="radio" name="accordion" id="ques6" >
-          <div id="accordion-content">
-           <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
-
-            Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
-          </div>
-          </li>
-          </ul>
-        </div>
-          
-
-          <div>
-            <p id="email-content">
-              Ready to watch? Enter your email to create or restart your
-              membership.
-            </p>
-            <div id="email-section2">
-              <form>
-                <input
-                  id="email-input"
-                  type="text"
-                  placeholder=" Email address" />
-              </form>
-              <div>
-                <button id="get-started"><b> Get started ></b></button>
-              </div>
-            </div>
-          </div>
-        
-    <br> <br>
-
-        <footer>
-          <p>Questions? <u> Call 000-800-919-1694 </u></p>
-          <div class="footer">
-
-            <div id="Left-footer">
-             
-              FAQs
-              <br />
-              Media Center
-              <br />
-              Ways to watch <br />
-              Cookie Preferences <br />
-              Speed Test <br />
-              <br />
-              <br />
-          
-
-     
-          </div>
-
-          <div id="Middle-footer">
-            <a href="Help Center.html">Help Center</a>
-            <br />
-            Investor Relations <br />
-            Terms of Use <br />
-            Corporate Information <br />
-            Legal Notices <br />
-          </div>
-
-          <div id="Right footer">
-            Account <br />
-            Jobs <br />
-            Privacy <br />
-            Contact Us <br />
-           <a href="OnlyOnNetflix.html">Only on Netflix</a>  <br />
-          </div>
-          </div>
-        </footer>
-
-        <select name="English" id="lang-dropdown2">
-          <option value="English"><b> English</b></option>
-          <option value="English"><b> Hindi</b></option>
-        </select>
-
-      <br /> <br>
-      Netflix India
+          Resolve student doubts and offer easy solutions on a daily basis in
+          biology subject
+        </li>
+        <li>
+          Counted in the top solvers out of thousands of solvers various times
+        </li>
+      </ul>
       
-      </div>
-  
+      <h4 id="jobs">Growth Arrow</h4>
+      <b> Equity research analyst</b>
+      <ul>
+        <li>
+          Exercised about different candlestick patterns, how to read charts and
+          trading in the stock market
+        </li>
+        <li>
+          Examined technical and fundamental analysis and various types of
+          indicators and apply these knowledge to grow personal income
+        </li>
+      </ul>
+
+      <h4 id="jobs">Course in Fundamentals of Digital Marketing</h4>
+      <li>
+        Learned about SEO and SEM, email marketing, keyword planning, and much
+        more from Google Digital Workshop
+      </li>
+    </main>
+    <br>
+    <br>
+
+
+<!-- Footer started-->
+
+ <div class="footer">
+<footer>
+                  
+ 200-A, Vipin Garden, Dwarka (Kakrola) More, Uttam Nagar, New Delhi,
+India, IN, 110059 
+ <br><br><br>
+ Reach me at: +917982146078
+<br><br>
+ <a href="mailto:mehakmattoo7@gmail.com"
+><img id="footerIcon" src="image/email.png" alt=""
+/></a>
+<br>
+ <a href="https://www.linkedin.com/in/mehak-mattoo-124021229">
+<img id="footerIcon" src="image/linkedin (1).png" alt="linkedin icon" />
+</a> <br>
+<a href="https://github.com/rin-kurikame">
+  <img id="footerIcon" src="image/github (1).png" alt="github icon"
+ /></a><br>               
+</div>
+</footer>
   </body>
 </html>
