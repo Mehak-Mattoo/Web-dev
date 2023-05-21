@@ -12,12 +12,22 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap"
       rel="stylesheet" />
 
+<!--bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="Only.css" />
 
     <script
       src="https://kit.fontawesome.com/dd718c79fa.js"
       crossorigin="anonymous"></script>
+
+
+
+
   </head>
 
   <body>
@@ -27,6 +37,7 @@
       <div class="main"> 
         <!--top right buttons-->
 
+ 
         <div>
             <a href="index.html">
                 <img id="netflix-icon" src="images/netflix_official_logo_icon_168085.png" alt="netflix-icon" /> </a>
@@ -39,8 +50,8 @@
           <div>
             <button id="sign-in-button"><p>SIGN IN</p></button>
           </div>
-        </div>
-  
+        
+  </div>
     </header>
 
     <main>
@@ -56,7 +67,15 @@
         <br />
         <div id="genre"><p>Popular on Netflix</p></div>
         <br />
-        <!-- carousel-->
+        <!-- boots carousel-->
+
+        
+
+
+
+
+   
+             <!-- my carousel-->
         <div class="carousel-main">
       
 
@@ -122,7 +141,7 @@
 
           <div class="blurred-carousel">
             <img src="carouselImages/c1image2.jpg" alt="show-image" />
-            <img src="carouselImages/c2image1.jpg" alt="show-image" />
+            <img src="carouselImages/c2image1.jpg" alt="show-image" /> 
             <img src="carouselImages/c4image4.jpg" alt="show-image" />
             <img src="carouselImages/c3image4.jpg" alt="show-image" />
           </div>
@@ -151,7 +170,7 @@
     <footer>
         <div id="footer-heading">
             Read about Netflix TV shows and movies and watch bonus videos on Tudum.com
-            <br> <br> <br>
+            <br> <br> 
         Questions? Contact us 
             
             </div>
@@ -174,10 +193,11 @@
 
       <div id="Middle-footer1">
         <br>
-     <div id="links"> <a href="Help Center.html">Help Center </a><br /> </div>
+      
         Jobs <br />
         Cookie Preferences <br />     
         Legal Notices <br />
+        <a href="Help Center.html"> <p id="links">Help Center</p>  </a><br /> 
       </div>
 
 
@@ -186,7 +206,8 @@
         Account <br />
         Ways to watch <br />
         Corporate Information <br />    
-       <a href="OnlyOnNetflix.html">  <div id="links"> Only on Netflix</a> <br /> </div>
+       <a href="OnlyOnNetflix.html">  <p id="links"> Only on Netflix </p>
+         </a>  <br /> 
       </div>
 
       <div id="Right-footer">
