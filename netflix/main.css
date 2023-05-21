@@ -1,98 +1,235 @@
 * {
-  /* font-family: "Fraunces", serif; */
-  font-family: "Montserrat", sans-serif;
-}
-
-#name {
-  color: #e75151;
-  height: 50px;
-  font-weight: bold;
-  font-size: 40px;
-  padding-top: 80px;
-}
-
-#myPic {
-  float: right;
-  display: flex;
-  height: 550px;
-  width: 300px;
-  border-radius: 30px;
-  padding: 10px;
-  margin: 6px;
-  border: 6px;
-}
-
-.header {
-  padding-top: 0;
-  padding: 8px;
-  margin: 2px;
-  border: 2px;
-  display: flex;
-  background-color: #57385c;
-  height: 50px;
-  width: 1310px;
-  font-size: 18px;
-  justify-content: space-around;
-}
-
-#homeIcon {
-  justify-content: start;
-  background-color: #57385c;
-  display: flex;
-  height: 20px;
-  width: 15px;
-}
-
-#briefcase {
-  background-color: #57385c;
-  display: flex;
-  height: 20px;
-  width: 15px;
-}
-
-#skills {
-  display: flex;
-  background-color: #57385c;
-  height: 20px;
-  width: 15px;
-}
-
-#hat {
-  background-color: #57385c;
-  display: flex;
-  height: 20px;
-  width: 15px;
-}
-
-footer {
-  background-color: #57385c;
-  padding: 6px;
-  margin: 2px;
-  border: 2px;
-  width: 1330px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
   color: white;
 }
 
-#headerIcons {
-  background-color: #57385c;
+.main {
+  padding: 30px;
+  height: 70px;
+  padding: 15px;
+  display: flex;
+  background-color: rgb(24, 24, 24);
+  justify-content: space-between;
+}
+
+#right-buttons {
+  justify-content: end;
+  display: flex;
+}
+
+#netflix-icon {
+  display: flex;
+  padding: 5px;
+  height: 35px;
+  width: 120px;
+  margin-right: auto;
+}
+
+#unlimited {
+  display: flex;
+  font-size: 13px;
+  margin: 10px;
+  padding: 5px 5px;
+}
+
+#join-netflix {
+  display: flex;
+  justify-content: right;
+  margin: 5px;
+  display: flex;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 5px;
+  height: 36px;
+  font-size: 13px;
+  width: 90px;
+  margin: 5px;
+  background-color: rgb(226, 8, 19);
+}
+
+#sign-in-button {
+  padding-right: 5px;
+  color: white;
+  display: flex;
+  background-color: black;
+  border: none;
+  outline-color: white;
+  outline-style: solid;
+  outline-width: 1px;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 13px;
+  width: 75px;
+  height: 32px;
+  margin: 6px;
+}
+
+.main-content {
+  padding: 25px;
+  background-color: rgb(35, 34, 34);
+  height: 2200px; /*change here*/
+}
+
+#main-heading {
+  letter-spacing: 2px;
+  font-family: "Kanit", sans-serif;
+  font-size: 42px;
+}
+
+#content {
+  padding-top: 5px;
+  width: 600px;
+  font-size: 18px;
+}
+
+#genre {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.carousel-main {
+  max-width: 1300px;
+}
+
+.carousel-main .carousel-1 {
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.carousel-main i {
+  top: 50%;
+  font-size: 20px;
+  width: 46px;
+  color: white;
+  height: 46px;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  line-height: 46px;
+  transform: translateY(-50%);
+}
+
+.carousel-main i:first-child {
+  left: -15px;
+}
+
+.carousel-main i:last-child {
+  right: -1px;
+}
+
+.carousel-1 img {
+  margin-left: 12px;
+  height: 180px;
+  width: calc(100% / 4);
+  object-fit: cover;
+}
+
+.carousel-1 img:first-child {
+  margin-left: 0px;
+}
+
+.blurred-carousel {
+  filter: blur(8px);
+}
+
+#blurred-genre {
+  padding-top: 10px;
+  font-size: 20px;
+  filter: blur(8px);
+}
+
+#subscribe-div {
+  background-color: rgb(35, 34, 34);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
-#footerIcon {
+#subscribe-div-heading {
+  background-color: rgb(35, 34, 34);
+  padding-top: 10px;
+  font-size: 40px;
+}
+
+#subscribe-div-content {
+  font-size: 22px;
+  width: 700px;
+  text-align: center;
+}
+
+#join-netflix2 {
   display: flex;
-  background-color: #57385c;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  display: flex;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 5px;
   height: 40px;
-  width: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 150px;
+  background-color: rgb(226, 8, 19);
 }
 
-#AboutMe {
-  padding: 9px;
-  margin: 2px;
-  border: 2px;
+#lang-dropdown2 {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  background-color: #191818;
+  border-radius: 3px;
+  height: 30px;
+  width: 95px;
 }
 
-#Icon {
-  text-decoration: none;
-  color: white;
+.footer-content {
+  font-size: 14px;
+  color: gray;
+  height: 300px;
+  background-color: rgb(35, 34, 34);
+  line-height: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#Left-footer {
+  color: gray;
+}
+
+#Middle-footer1 {
+  color: gray;
+}
+
+#Middle-footer2 {
+  color: gray;
+}
+
+#Right-footer {
+  color: gray;
+}
+
+#footer-heading {
   font-size: 18px;
+  padding: 20px;
+  color: gray;
+  padding-left: 100px;
+  background-color: rgb(35, 34, 34);
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+}
+
+#links {
+  color: gray;
+  text-decoration: none;
 }
