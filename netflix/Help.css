@@ -1,0 +1,931 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-div {
+  color: white;
+  height: 230px;
+  background-color: black;
+}
+
+#right-buttons {
+  padding: 10px;
+  display: flex;
+}
+
+#netflix-icon {
+  display: flex;
+  padding: 10px;
+  height: 38px;
+  width: 130px;
+  margin-right: auto;
+}
+
+
+
+#join-netflix {
+  margin: 10px;
+  color: white;
+  display: flex;
+  padding: 10px 10px;
+  text-align: center;
+  outline-color: white;
+  outline-style: solid;
+  outline-width: 1px;
+  height: 18px;
+  font-size: 13px;
+  width: 90px;
+  cursor: pointer;
+}
+
+#sign-in-button {
+  display: flex;
+  width: 76px;
+  height:40px;
+  margin: 10px;
+  background-color: rgb(229, 9, 20);
+  border: none;
+  color: white;
+  padding: 10x 10px;
+  font-size: 13px;
+  align-items: center;
+text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 60px;
+}
+
+#Help-center-heading {
+  font-size: 35px;
+  font-style: bold;
+}
+
+#search-bar {
+  color: black;
+  width: 750px;
+  height: 44px;
+  border-radius: 8px;
+}
+
+#middle-div1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 230px;
+}
+
+#middle-div-buttons {
+  display: flex;
+  margin: 5px;
+}
+
+#sign-in-button2 {
+  display: flex;
+  background-color: rgb(229, 9, 20);
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  font-size: 15px;
+  width: 100px;
+  height: 42px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#join-netflix2 {
+  margin: 10px;
+  color: rgb(229, 9, 20);
+  display: flex;
+  padding: 15px 15px;
+  text-align: center;
+  outline-color: rgb(229, 9, 20);
+  outline-style: solid;
+  outline-width: 1px;
+  height: 12px;
+  font-size: 14px;
+  width: 100px;
+  cursor: pointer;
+}
+
+#middle-div-heading {
+  font-size: 30px;
+
+}
+
+#popular-topics {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 10px;
+}
+
+#popular-topics-heading {
+  font-size: 20px;
+  margin: 10px;
+}
+
+#popular-topics-content {
+  display: flex;
+  justify-content:space-around;
+  width: 600px;
+}
+
+#popular-topics-content1 {
+  margin: 5px;
+  cursor: pointer;
+  display: flex;
+  padding: 5px;
+  width: 300px;
+  align-items: center;
+  box-shadow: 3px 3px 3px 3px rgb(230, 226, 226);
+}
+
+#popular-topics-content2 {
+  margin: 5px;
+  cursor: pointer;
+  display: flex;
+  padding: 5px;
+  width: 300px;
+  align-items: center;
+  box-shadow: 3px 3px 3px 3px rgb(230, 226, 226);
+}
+
+#popular-topics-content3 {
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  width: 300px;
+  align-items: center;
+  box-shadow: 3px 3px 3px 3px rgb(230, 226, 226);
+}
+
+#page-icon{
+  height: 25px;
+  padding: 5px;
+}
+
+#middle-div2 {
+  display: flex;
+  height: 400px;
+  margin: 15px;
+  justify-content: space-evenly;
+}
+
+#middle-div2-heading {
+  font-size: 24px;
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  cursor: pointer;
+}
+
+#middle {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  cursor: pointer;
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  cursor: pointer;
+}
+
+#red-icon {
+  color: red;
+  width: 15px;
+  margin-left: 5px;
+  height: 30px;
+
+}
+
+/*footer started*/
+
+#footer {
+  cursor: pointer;
+  background-image: linear-gradient(
+    200deg,
+    rgba(235, 38, 38, 0.3),
+    rgb(8, 8, 35)
+  );
+  padding: 30px;
+  color: white;
+  background-color: black;
+}
+
+#footer-heading {
+  display: flex;
+}
+
+#help-div {
+  display: flex;
+  padding: 15px;
+  font-size: 20px;
+}
+
+#contact-us {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(35, 35, 35);
+  width: 110px;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 5px;
+  display: flex;
+  height: 20px;
+  text-align: center;
+}
+
+#lang-dropdown {
+  margin: 10px;
+  padding: 5px;
+  background-color: black;
+  color: gray;
+  width: 150px;
+}
+
+#footer-content {
+  color: rgb(155, 142, 142);
+  line-height: 30px;
+}
+
+
+
+
+
+
+@media all and (max-width: 320px) {
+
+
+  html,body{
+    overflow-x: hidden;
+}
+
+  .upper-div {
+    height: 230px;
+
+  }
+  
+  #right-buttons {
+    padding: 5px;
+
+  }
+  
+  #netflix-icon {
+    padding-left: 5px;
+    height: 18px;
+    width: 62px;
+    display: flex;
+  }
+  
+
+  #join-netflix {
+    margin: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    height: 6px;
+    font-size: 8px;
+    width: 55px;
+
+  }
+  
+  #sign-in-button {
+    width: 40px;
+    height:21px;
+    margin: 5px;
+    padding: 5px 5px;
+    font-size: 8px;
+
+  }
+
+  #middle-div-buttons {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+  }
+  
+  #heading {
+    margin-top: 20px;
+    flex-direction: column;
+    line-height: 55px;
+  }
+  
+  #Help-center-heading {
+    font-size: 25px;
+  }
+  
+  #search-bar {
+    width: 200px;
+    height: 35px;
+
+  }
+
+  
+  #middle-div1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 300px;
+  }
+  
+
+  
+  #sign-in-button2 {
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 10px;
+    width: 55px;
+    height: 25px;
+    margin: 5px;
+    align-items: center;
+  }
+  
+  #join-netflix2 {
+    padding: 5px 5px;
+    text-align: center;
+    height: 12px;
+    font-size: 10px;
+    width: 69px;
+    align-items: center;
+  }
+  
+  #middle-div-heading {
+    font-size: 16px;
+    margin-left: 8px;
+  
+  }
+  
+  #popular-topics {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 5px;
+  }
+  
+  #popular-topics-heading {
+    font-size: 15px;
+    margin: 5px;
+  }
+   
+ #popular-topics-content {
+    display: flex;
+    justify-content:space-around;
+    width: 600px;
+    flex-direction: column;
+  }  
+  
+  #popular-topics-content1 {
+    display: flex;
+    padding: 5px;
+    width: 200px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  #popular-topics-content2 {
+    display: flex;
+    padding: 5px;
+    width: 200px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  #popular-topics-content3 {
+    padding: 5px;
+    display: flex;
+    width: 200px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  #page-icon{
+    height: 25px;
+    padding: 5px;
+  }
+  
+  #middle-div2 {
+    display: flex;
+    height: 600px;
+    margin: 15px;
+    flex-direction: column;
+  }
+  
+  #middle-div2-heading {
+    font-size: 20px;
+  }
+  
+  #left {
+font-size: 10px;
+    width: 230px;
+    margin: 5px;
+  }
+  
+  #middle {
+    font-size: 10px;
+    width: 250px;
+    margin: 5px;
+  }
+  
+  #right {
+    font-size: 10px;
+    width: 250px;
+    margin: 5px;
+  }
+  
+  #red-icon {
+    color: red;
+    width: 10px;
+    margin-left: 5px;
+    height: 20px;
+  }
+  
+  /*footer started*/
+  
+  #footer {
+    padding: 10px;
+  }
+  
+  #footer-heading {
+    display: flex;
+  }
+  
+  #help-div {
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 3px;
+  }
+
+
+#contact-us {
+margin: 5px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    height: 10px;
+align-items: center;
+  }
+  
+  #lang-dropdown {
+    margin: 5px;
+    padding: 5px;
+    width: 80px;
+  }
+  
+  #footer-content {
+    color: rgb(155, 142, 142);
+    line-height: 30px;
+    font-size: 10px;
+  }
+}  
+
+
+
+
+@media all and (min-width: 321px) and (max-width: 480px) {
+
+
+  html,body{
+    overflow-x: hidden;
+}
+
+  .upper-div {
+    height: 250px;
+
+  }
+  
+  #right-buttons {
+    padding: 5px;
+
+  }
+  
+  #netflix-icon {
+    padding-left: 5px;
+    height: 20px;
+    width: 70px;
+  }
+  
+  #join-netflix {
+    margin: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    height: 12px;
+    font-size: 10px;
+    width: 70px;
+
+  }
+  
+  #sign-in-button {
+    width: 50px;
+    height:27px;
+    margin: 5px;
+    padding: 5px 5px;
+    font-size: 10px;
+    align-items: center;
+  text-align: center;
+  }
+  
+  #heading {
+    margin-top: 20px;
+    flex-direction: column;
+    line-height: 55px;
+  }
+  
+  #Help-center-heading {
+    font-size: 25px;
+  }
+  
+  #search-bar {
+    width: 300px;
+    height: 35px;
+  }
+
+  
+  #middle-div1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 300px;
+  }
+  
+  #middle-div-buttons {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+  }
+  
+  #sign-in-button2 {
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 10px;
+    width: 55px;
+    height: 30px;
+    margin: 5px;
+    align-items: center;
+  }
+  
+  #join-netflix2 {
+    padding: 5px 5px;
+    align-items: center;
+    height: 16px;
+    font-size: 11px;
+    width: 80px;
+  }
+  
+  #middle-div-heading {
+    font-size: 18px;
+    margin-left: 8px;
+  
+  }
+  
+  #popular-topics {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 5px;
+  }
+  
+  #popular-topics-heading {
+    font-size: 15px;
+    margin: 5px;
+  }
+   
+ #popular-topics-content {
+    display: flex;
+    justify-content:space-around;
+    width: 600px;
+    flex-direction: column;
+  }  
+  
+  #popular-topics-content1 {
+    display: flex;
+    padding: 5px;
+    width: 300px;
+    font-size: 14px;
+    cursor: pointer;
+
+  }
+  
+  #popular-topics-content2 {
+    display: flex;
+    padding: 5px;
+    width: 300px;
+    font-size: 14px;
+    cursor: pointer;
+  
+  }
+  
+  #popular-topics-content3 {
+    padding: 5px;
+    display: flex;
+    width: 300px;
+    font-size: 14px;
+    cursor: pointer;
+ 
+  }
+  
+  #page-icon{
+    height: 27px;
+    padding: 5px;
+  }
+  
+  #middle-div2 {
+    display: flex;
+    height: 700px;
+    margin: 25px;
+    flex-direction: column;
+
+  }
+  
+  #middle-div2-heading {
+    font-size: 22px;
+  }
+  
+  #left {
+font-size: 12px;
+    width: 330px;
+    margin: 10px;
+  }
+  
+  #middle {
+    font-size: 12px;
+    width: 350px;
+    margin: 10px;
+  }
+  
+  #right {
+    font-size: 12px;
+    width: 250px;
+    margin: 10px;
+  }
+  
+  #red-icon {
+    color: red;
+    width: 10px;
+    margin-left: 5px;
+    height: 20px;
+  }
+  
+}  
+
+
+
+@media all and (min-width: 481px) and (max-width: 850px) {
+
+
+  html,body{
+    overflow-x: hidden;
+}
+
+  .upper-div {
+    height: 300px;
+
+  }
+  
+  #right-buttons {
+    padding: 5px;
+
+  }
+  
+  #netflix-icon {
+    padding-left: 5px;
+    height: 30px;
+    width: 105px;
+  }
+  
+  #join-netflix {
+    margin: 10px;
+    color: white;
+    display: flex;
+    padding: 10px 10px;
+    text-align: center;
+    height: 16px;
+    font-size: 14px;
+    width: 100px;
+
+  }
+  
+  #sign-in-button {
+    padding: 10px 10px;
+    font-size: 14px;
+    width: 80px;
+    height: 41px;
+  }
+  
+  #heading {
+    margin-top: 25px;
+    flex-direction: column;
+    line-height: 55px;
+  }
+  
+  #Help-center-heading {
+    font-size: 30px;
+    padding: 5px;
+  }
+  
+  #search-bar {
+    width: 400px;
+    height: 35px;
+  }
+  
+  #middle-div1 {
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+    height: 300px;
+  }
+  
+  #middle-div-buttons {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+  }
+  
+  #sign-in-button2 {
+    padding: 10px 10px;
+    font-size: 14px;
+    width: 75px;
+    height: 35px;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #join-netflix2 {
+    padding: 5px 5px;
+    height: 21px;
+    font-size: 14px;
+    width: 100px;
+    outline-width: 2px;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #middle-div-heading {
+    font-size: 20px;
+    margin-left: 8px;
+  
+  }
+  
+  #popular-topics {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 5px;
+  }
+  
+  #popular-topics-heading {
+    font-size: 15px;
+    margin: 5px;
+  }
+   
+ #popular-topics-content {
+    display: flex;
+    justify-content:space-around;
+    width: 600px;
+    flex-direction: column;
+  
+  }  
+  
+  #popular-topics-content1 {
+    display: flex;
+    padding: 5px;
+    width: 300px;
+    font-size: 14px;
+    width: 70%;
+    cursor: pointer;
+  }
+  
+  #popular-topics-content2 {
+    display: flex;
+    padding: 5px;
+    width: 300px;
+    font-size: 14px;
+    width: 70%;
+    cursor: pointer;
+  }
+  
+  #popular-topics-content3 {
+    padding: 5px;
+    display: flex;
+    width: 300px;
+    font-size: 14px;
+    width: 70%;
+    cursor: pointer;
+  }
+  
+  #page-icon{
+    height: 27px;
+    padding: 5px;
+  }
+  
+  #middle-div2 {
+    display: flex;
+    height: 400px;
+    margin: 15px;
+    justify-content: space-evenly;
+    width: 85%;
+    height: 60%;
+  }
+  
+  #middle-div2-heading {
+    font-size: 24px;
+  }
+  
+  #left {
+font-size: 14px;
+    width: 400px;
+    margin: 10px;
+  }
+  
+  #middle {
+    font-size: 14px;
+    width: 400px;
+    margin: 10px;
+  }
+  
+  #right {
+    font-size: 14px;
+    width: 300px;
+    margin: 10px;
+  }
+  
+  #red-icon {
+    color: red;
+    width: 10px;
+    margin-left: 5px;
+    height: 25px;
+  }
+  
+  /*footer started*/
+  
+  #footer {
+    padding: 10px;
+  }
+  
+  #footer-heading {
+    display: flex;
+  }
+  
+  #help-div {
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 6px;
+  }
+
+
+#contact-us {
+margin: 5px;
+    width: 90px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+    height: 14px;
+align-items: center;
+  }
+  
+  #lang-dropdown {
+    margin: 5px;
+    padding: 5px;
+    width: 80px;
+  }
+  
+  #footer-content {
+    color: rgb(155, 142, 142);
+    line-height: 30px;
+    font-size: 12px;
+  }
+}  
+
+
+
+@media all and (min-width: 851px) {
+
+  #sign-in-button {
+    padding: 10px 10px;
+    font-size: 14px;
+    width: 85px;
+    height: 43px;
+    margin: 8px;
+  }
+  
+
+}
+
+
