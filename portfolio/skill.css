@@ -1,0 +1,118 @@
+* {
+  padding: 0px;
+  margin: 0px;
+    /* font-family: "Fraunces", serif; */
+    font-family: "Montserrat", sans-serif;
+  
+  }
+
+  .header {
+    padding: 10px 10px;
+    display: flex;
+top: 0;
+left: 0;
+width: 100%;
+    position: fixed;
+   background-color: rgb(45, 19, 44);
+    height: 65px;
+    text-align: center;
+    font-size: 18px;
+    justify-content: space-evenly;
+    
+  }
+
+  .header img{
+
+    height: 40px;
+  }
+
+  #plus-icon{
+    display: none;
+  }
+
+  #icon-text{
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+.container{
+  display: flex;
+  height: 480px;
+  flex-direction: column;
+  padding: 35px;
+  margin-top: 70px;
+}
+
+.container li{
+line-height: 33px;
+}
+
+  
+  #content {
+    font-size: 15px; 
+  }
+
+  #heading{
+    color: rgb(199, 44, 65);
+    font-size: 30px;
+  }
+
+
+  .footer-content {
+    height: 243px;
+    color: white;
+      background-color: rgb(45, 19, 44);
+      padding: 15px;
+     }
+    
+  #footer-icon{
+    height: 50px;
+  }
+
+  /* Dropdown Button */
+.dropbtn {
+  background-color: rgb(45, 19, 44);
+  color: rgba(236, 81, 75, 0.3);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(45, 19, 44);
+  min-width: 150px;
+  font-size: 15px;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:  rgb(119, 49, 117);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color:   rgb(119, 49, 117);
+}
