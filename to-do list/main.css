@@ -1,0 +1,62 @@
+
+
+
+header{
+padding: 15px;
+font-family: 'Pacifico', cursive;
+font-size: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(92, 11, 49);
+  color: white;
+
+
+}
+
+#add-button{
+  font-family: 'Pacifico', cursive;
+}
+
+
+
+.container {
+  font-family: 'Courgette', cursive;
+  margin: 20px;
+}
+
+.list-container {
+  margin: 10px;
+  font-family: 'Courgette', cursive;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+h4 {
+  flex-grow: 1;
+}
+
+
+#edit-button {
+  font-family: 'Pacifico', cursive;
+  margin: 5px;
+  padding: 5px;
+  background-color: yellow;
+  width: 60px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 14px;
+}
+
+#remove-button {
+  color: white;
+  margin: 5px;
+  width: 40px;
+  background-color: red;
+  border-radius: 5px;
+  border-style: none;
+}
+
+

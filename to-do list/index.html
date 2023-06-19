@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do list</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script src="my.js " defer></script>
+  </head>
+  <body>
+    <header>
+      <h3>
+        My To-do list 
+    </header>
+    <main>
+      <div class="container">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Add your tasks"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button
+            id="add-button"
+            class="btn btn-outline-success"
+            type="button"
+            id="button-addon2"
+          >
+            +
+          </button>
+        </div>
+      </div>
+
+      <div class="list-container">
+        <ul id="parent-List" class="list-group">
+          <li class="list-group-item">
+            <h4>Add anything</h4>
+            <button id="edit-button" onclick="editTask(this)">Edit</button>
+            <button id="remove-button" onclick="removeTask(this)">X</button>
+            <!-- this helps in determining which element has been called to get removed-->
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
