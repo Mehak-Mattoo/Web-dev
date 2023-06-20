@@ -1,0 +1,144 @@
+*{
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif; 
+
+
+}
+
+
+body{
+    background-image: url(images/bac.jpg);
+
+}
+
+
+.container{
+padding: 20px;
+height: 480px;
+width: 370px;
+background-color: rgb(183, 207, 226);
+border-radius: 10px;
+align-items: center;
+display: flex;
+flex-direction: column;
+position: absolute;
+left: 35%;
+top:10%;
+box-shadow: 10px 10px rgb(26, 137, 173);
+}
+
+#heading{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+#content{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#height , #weight{
+    margin: 5px;
+    height: 35px;
+    width: 220px;
+    padding: 3px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    border-bottom: rgb(19, 69, 109) solid 2px;
+}
+
+
+#getBMI{
+    margin: 20px;
+    border-radius: 10px;
+    width: 222px;
+    height: 38px;
+   background-color: rgb(37, 139, 223);
+   color: white;
+   cursor: pointer;
+   border: none;
+   border-bottom: rgb(6, 39, 66) solid 2px; 
+
+}
+
+#you{
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(11, 56, 94); 
+    font-weight: bolder;
+font-size: 18px;
+}
+
+#comment{
+    background-color: white; 
+margin: 10px;
+width: 60%;
+border-radius: 10px;
+padding: 10px;
+text-align: center;
+color: rgb(11, 56, 94); 
+font-weight: bolder;
+height: 25px;
+}
+
+.result{
+    margin: 10px;
+    background-color: white; 
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(11, 56, 94); 
+    font-weight: bolder;
+    font-size: 20px;
+    height: 29px;
+}
+
+
+@media all and (max-width: 320px) {
+
+  .container{
+    margin: 0px;
+height: 90%;
+width: 90%;
+position: static;
+}
+
+#heading{
+    font-size: 1.5em;
+}
+
+#height , #weight{
+    height: 80%;
+    width: 90%;
+}
+#content{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+#getBMI{
+    margin-top: 10px;
+    width: 70%;
+    height: 70%;
+}
+
+
+#comment{
+background-color: white;
+width: 80%;
+height: 90%;
+}
+
+.result{
+    background-color: white; 
+    width: 20%;
+    height: 90%;
+}  
+  }
