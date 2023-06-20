@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bulb</title>
+
+    <style>
+      body {
+        background-color: black;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+      }
+
+      button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height: 25px;
+        border-radius: 5px;
+        border-style: none;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="bulb" src="images/off.jpg" alt="bulb-off" />
+    <button id="button">Turn on</button>
+
+    <script>
+      let button = document.getElementById("button");
+      let bulb = document.getElementById("bulb");
+      button.addEventListener("click", turnOnBulb);
+
+      function turnOnBulb(e) {
+        // when clicked upon, button text changes and image changes
+
+        if (button.textContent.includes("On")) {
+          bulb.src = "images/off.jpg";
+          button.textContent = "Turn Off";
+        } else {
+          bulb.src = "images/on.jpg";
+          button.textContent = "Turn On";
+        }
+      }
+    </script>
+  </body>
+</html>
