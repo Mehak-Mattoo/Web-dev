@@ -1,0 +1,17 @@
+
+.container {
+    align-items: center;
+display: flex;
+    padding: 20px;
+    height: 500px;
+    width: 600px;
+    background-color: brown;
+}
+
+#btn{
+font-size: 14px;
+padding: 5px;
+font-weight: bold;
+margin: 190px;
+
+}
