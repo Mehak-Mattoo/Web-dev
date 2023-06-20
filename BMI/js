@@ -1,0 +1,43 @@
+
+var btn= document.getElementById('getBMI');
+btn.addEventListener('click', getBMIValue());
+
+function getBMIValue(){
+
+let height= document.querySelector('#height').value;
+let weight= document.querySelector('#weight').value;
+
+    if (height==''|| weight==''){
+     //  alert ("All fields are required!");
+    }
+      
+        height= height/100;
+        let bmi= (weight/(height*height));
+
+ bmi= bmi.toFixed(2);
+
+ document.querySelector('.result').innerHTML= bmi;
+    
+
+
+let ans='';
+
+if(bmi<18.5){
+    ans= "Underweight";}
+
+    else if(18.5<= bmi && bmi<=24.5){
+        ans="Healthy";}
+    
+        else if(25<= bmi && bmi<=29.9){
+            ans="Overweight";} 
+
+            else if(30<= bmi && bmi<=34.9){
+                ans="Obese";}
+
+                else if(35<= bmi){
+                    ans="Extremely obese";}
+
+ 
+ document.querySelector('#comment').innerHTML= "You are : "+ans;
+
+                }
