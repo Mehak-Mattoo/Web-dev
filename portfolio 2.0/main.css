@@ -1,0 +1,216 @@
+*{
+margin: 10px;
+font-size: 18px;
+font-family: 'Fira Sans', sans-serif;
+
+}
+
+.header-div{
+    display: flex;
+    margin: 0px;
+    padding: 5px 5px;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-color: green;
+    color: white;
+    height: 55px;
+    justify-content: space-evenly;          
+}
+
+
+ul{
+    list-style-type: upper-alpha ;
+  }
+
+
+#heading{ 
+    font-size: 60px;
+    font-weight: bold; 
+    margin-left: 0px; 
+    width: 600px;
+ 
+}
+
+.main-section{   
+margin-top: 90px;
+justify-content: space-between;
+display: flex;
+}
+
+
+.contact{
+background-color: rgb(34, 167, 34);
+border: none;
+height: 40px;
+width: 130px;
+color: white;
+cursor: pointer;
+font-weight: bold;
+letter-spacing: 1px;
+margin-left: 0px;
+width: 120px;
+}
+
+
+#image{
+    display: flex;
+    height: 500px;
+    width: 370px;
+    border-radius: 20px;   
+    align-items: end;
+
+}
+
+ .skill-div{
+        display: flex;
+        width: 440px;
+    
+    }
+    
+
+.skill-1 ,.skill-2 ,.skill-3 ,.skill-4 ,.skill-5 {
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;     
+    height:  17px;
+    margin-left: 0px;
+    display: flex;
+}
+
+.skill-1 {
+background-color: rgb(31, 83, 31);
+color: white;
+
+}
+
+.skill-2 {
+    background-color: rgb(1,87,60);
+    color: white;
+}
+
+.skill-3 {
+    background-color:rgb(240,74,0); 
+    color: white;
+}
+
+.skill-4 {
+    background-color: rgb(131, 211, 85);   
+}
+
+.skill-5 {
+    background-color: rgb(98, 107, 44);
+    color: white;
+}
+
+
+
+  #mission{
+    margin-top: 50px;
+    color: rgb(199, 44, 65);
+    margin-left: 0px;  
+    font-size: 22px;
+    height: 200px;   
+    width: 400px; 
+  }
+
+
+
+/*Projects*/
+
+.project-div-heading{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 0px; 
+    
+    }
+
+.project-div{
+    display: flex;
+    height: 300px;
+    margin-left: 10px; 
+}
+
+.project1, .project2,.project3, .project4{
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px 50px 0px 0px;
+    width: 38%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color:  green;
+}
+
+#project-imgs{
+height: 200px;
+width: 200px;
+border-radius: 50px 50px 0px 0px;
+
+}
+
+
+
+#section-heading{
+    display: flex;
+    font-size: 42px;
+    font-weight:bolder;
+    color:  rgb(240,74,0); 
+    letter-spacing: 7px; 
+   text-align: center;
+   align-items: center;
+}
+
+
+/*Experience*/
+
+#Experience{
+display: flex;
+}
+
+    #sub-heading{
+      font-size: 20px;   
+      color:rgb(240,74,0); 
+     
+    }
+
+    #main-heading {
+        margin-left: 0px;
+       color: green;
+        font-size: 20px;
+        display: flex;
+        font-weight: bolder;
+  
+        
+      }
+
+/*Education*/
+.Education{
+        display: flex; 
+        justify-content: space-between;
+      }
+
+
+      .footer-content {
+        width: 100%;
+        height: 243px;
+        color: white;
+          background-color: green;
+          margin: 0px;
+    
+
+         }
+        
+      #footer-icon{
+        height: 50px;
+      }
+      
+
+     
+  
+
+
+  
+  
