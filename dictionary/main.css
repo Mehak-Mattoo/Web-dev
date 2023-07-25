@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  color: white;
+  background-color: plum;
+  letter-spacing: 1px;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 8rem 6% 1rem;
+}
+
+nav {
+  background-color: #800080;
+  padding: 2rem 3% 2rem;
+  width: 100%;
+}
+
+nav h1 {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.input-section {
+  text-align: center;
+}
+
+.input-section p {
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+#searchBtn {
+  background-color: green;
+  border: none;
+  padding: 1.4rem;
+  font-size: 1.6rem;
+  border-radius: 2rem;
+  color: white;
+  width: 8rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.input-box input {
+  padding: 1rem 2%;
+  font-size: 1.6rem;
+  border-radius: 2rem;
+  border: none;
+  min-width: 30rem;
+}
+
+.meaning {
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.loading {
+  display: none;
+}
+
+#defination {
+  margin: 1rem 0rem 2rem;
+  text-align: center;
+}
+
+.suggested {
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
+  color: purple;
+  border-radius: 1.2rem;
+  display: inline-block;
+}
+
+.audio {
+  text-align: center;
+}
