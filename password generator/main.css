@@ -1,0 +1,49 @@
+*{
+    padding: 0;   
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    
+}
+body{
+    background: url(images/bgg.jpg);   
+}
+
+
+.main-container {
+    margin: 2.8rem auto;
+    display: block;
+    padding: 2rem;
+    min-height:25rem;
+    width: 25rem;
+    border-radius: 1rem;
+    background:rgb(94,116,139); 
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+#info{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+p{
+    color: rgb(206, 230, 243);
+}
+
+#include{
+    text-align: left;
+}
+
+button{
+    border: none;
+    padding: 0.5rem 1.5rem; 
+    margin-top: 0.7rem;
+    display:flex;
+    border-radius: 0.5rem; 
+
+}
