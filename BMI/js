@@ -1,24 +1,30 @@
 
-var btn= document.getElementById('getBMI');
+let btn= document.getElementById('getBMI');
 btn.addEventListener('click', getBMIValue());
+let newBmi= document.querySelector("#you")
+
+let result = document.querySelector(".result");
+
+
 
 function getBMIValue(){
-
+let bmi =0;
 let height= document.querySelector('#height').value;
 let weight= document.querySelector('#weight').value;
 
-    if (height==''|| weight==''){
-     //  alert ("All fields are required!");
-    }
-      
-        height= height/100;
-        let bmi= (weight/(height*height));
+if (height === "" || isNaN(height))
+result.innerHTML = "Provide a valid Height!";
+
+else if (weight === "" || isNaN(weight))
+result.innerHTML = "Provide a valid Weight!";
+    bmi=   height= height/100;
+         bmi= (weight/(height*height));
 
  bmi= bmi.toFixed(2);
 
- document.querySelector('.result').innerHTML= bmi;
-    
 
+document.querySelector('.result').innerHTML= bmi;
+    
 
 let ans='';
 
