@@ -1,10 +1,10 @@
 *{
-    font-size: 16px;
-    padding: 0px;
-    margin: 0px;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 1rem;
     font-family: 'Poppins', sans-serif; 
-
-
 }
 
 
@@ -15,88 +15,96 @@ body{
 
 
 .container{
-padding: 20px;
-height: 480px;
-width: 370px;
+padding: 2rem;
+margin: 1rem auto 1rem;
+width: 20rem;
+height: auto;
 background-color: rgb(183, 207, 226);
-border-radius: 10px;
 align-items: center;
 display: flex;
 flex-direction: column;
-position: absolute;
-left: 35%;
-top:10%;
-box-shadow: 10px 10px rgb(26, 137, 173);
+box-shadow: 0.5rem 0.5rem rgb(26, 137, 173);
 }
 
 #heading{
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 900;
     letter-spacing: 3px;
 }
 
 #content{
-    margin-top: 10px;
-    font-size: 15px;
+    margin-top: 1rem; 
+    font-size: 0.8rem;
 }
 
 #height , #weight{
-    margin: 5px;
-    height: 35px;
-    width: 220px;
-    padding: 3px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
+  margin-top: 0.6rem;
+    height: 2.3rem;
+    width: 14rem;
+    padding-left: 0.7rem; 
     border-bottom: rgb(19, 69, 109) solid 2px;
 }
 
 
 #getBMI{
-    margin: 20px;
-    border-radius: 10px;
-    width: 222px;
-    height: 38px;
+    margin-top: 1.6rem;  
+    width: 14rem;
+    height: 2.5rem;
    background-color: rgb(37, 139, 223);
    color: white;
+   font-size: 1.1rem;
+   letter-spacing: 1px;
    cursor: pointer;
    border: none;
    border-bottom: rgb(6, 39, 66) solid 2px; 
 
 }
 
+
+#getBMI:hover{
+    background-color: rgb(8, 103, 180);
+width: 14.5rem;
+
+}
 #you{
-    margin: 10px;
-    border-radius: 10px;
+    margin-top: 1rem;  
     text-align: center;
     color: rgb(11, 56, 94); 
-    font-weight: bolder;
-font-size: 18px;
+    font-weight: bold;
+font-size: 1.2rem;
 }
 
 #comment{
     background-color: white; 
-margin: 10px;
+margin: 1rem;
 width: 60%;
-border-radius: 10px;
-padding: 10px;
+padding: 1rem;
 text-align: center;
 color: rgb(11, 56, 94); 
 font-weight: bolder;
-height: 25px;
+height: auto;
 }
 
 .result{
-    margin: 10px;
+    margin: 1rem;
     background-color: white; 
-    width: 100px;
-    padding: 5px;
-    border-radius: 10px;
+    width: 10rem;
+    padding: 0.5rem;  
     text-align: center;
     color: rgb(11, 56, 94); 
     font-weight: bolder;
-    font-size: 20px;
-    height: 29px;
+    font-size: 1.2rem;
+    height: 2rem;
+}
+
+#credit{
+    font-size: 0.8rem;
+    color: white;
+}
+
+#credit span{
+    color: rgb(11, 56, 94);  
+    font-weight: 900; 
 }
 
 
