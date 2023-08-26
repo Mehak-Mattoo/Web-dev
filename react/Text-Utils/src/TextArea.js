@@ -45,10 +45,8 @@ const intoLower=()=>{
     }
 
     const CopyText = () => {
-      let text = document.getElementById("exampleFormControlTextarea1")
-      text.select();
-     navigator.clipboard.writeText(text.value);
-     document.getSelection().removeAllRanges();
+     
+     navigator.clipboard.writeText(text);
      props.showAlert(" Text copied", "success")
     }
 
@@ -94,8 +92,8 @@ const handleOnChange=(event)=>{
  
 
   
-<p> {text.split(' ').filter(value => value !== "").length} words and {text.length} characters</p>
-<p>{0.008* text.split(' ').filter(value => value !== "").length} minutes read</p> 
+<p> {text.split(/\s+/).filter(value => value !== "").length} words and {text.length} characters</p>
+<p>{0.008* text.split(/\s+/).filter(value => value !== "").length} minutes read</p> 
 {/* this value= 125 words---in 1 min, 1/250=0.008 */}
 
 
