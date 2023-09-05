@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+section{
+  padding: 1rem;
+}
+
+.navbar{
+  background-color: rgb(105, 59, 59);
+  
+}
+
+.navbar a{
+  color: white;
+  letter-spacing: 6px;
+}
+
+ 
+
+  .game-container{
+  
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    cursor: pointer; 
+  }
+
+  #heading{
+    font-weight: 900;
+    color: rgb(94, 86, 8);
+  }
+ 
+ .container-text-center{
+background-color: palegoldenrod;
+padding: 1.2rem;
+margin-right: 2rem;
+width: 50%;
+  }
+
+  .col{
+    padding: 1.5rem;
+   border: 0.1rem solid rgb(126, 118, 35);
+   text-align: center;
+   font-size: 3.5vw;
+  }
+
+  .col:hover{
+    background-color: rgb(202, 191, 69);
+  }
+
+  .boxText{
+    padding: 1rem;
+  }
+
+  .game-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    justify-content: center;
+  }
+
+  #win{
+    margin: 0.5rem auto;
+    height: 15rem;
+    width: 15rem;
+    transition: 1s ease-in-out;
+  }
+
+  img{
+    display: none;
+  }
+
+  #reset{
+    border: none;
+    background-color: rgb(148, 141, 63);
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+    width: 7rem;
+    margin: 0 auto;
+    box-shadow: 0.3rem 0.4rem rgb(231, 225, 160);
+  }
+
+  .info{
+    font-size: 1.8rem;
+  color: rgb(128, 118, 17);
+    margin: 1rem 0;
+transition: 0.5s;
+    font-weight: 900;
+ 
+  }
+
+  button:hover{
+    transform: translateY(-3px);
+    transition: 0.4s ease-in;
+  }
+
+
+
+  #sign{
+    margin: 0.2rem;
+ 
+  }
+
+  #sign span{
+    color:palevioletred;
+    font-weight: 800;
+  }
+
+  #sign a{
+    text-decoration: none;
+  }
+
+  /* utility class */
+
+  .bl-0{
+    border-left: 0;
+  }
+  .br-0{
+    border-right: 0;
+  }
+  .bt-0{
+    border-top: 0;
+  }
+  .bb-0{
+    border-bottom: 0;
+  }
+
+
+
+ @media screen and (max-width:600px){
+
+.game-container{
+  flex-wrap: wrap;
+}
+
+
+ } 
